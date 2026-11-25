@@ -221,3 +221,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific private data and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service-account*.json
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+private/
+local-data/
+user-data/
+memories/
+conversation-logs/
+*.session
