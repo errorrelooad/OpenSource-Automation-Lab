@@ -45,3 +45,9 @@ No license has been granted yet. A license will be selected after reviewing owne
 - [대회 자동화](competition-automation/README.md)
 - [JARVIS](jarvis/README.md)
 - [검증된 현황과 미확인 사항](docs/PROJECT_STATUS.md)
+
+## Continue work from GitHub (ChatGPT Work / coding agent)
+
+**Read before editing:** [Competition recovery handoff](https://github.com/errorrelooad/OpenSource-Automation-Lab/blob/docs/competition-observability-playbook/competition-automation/RECOVERY_HANDOFF.md), [observability plan](https://github.com/errorrelooad/OpenSource-Automation-Lab/blob/docs/competition-observability-playbook/competition-automation/OBSERVABILITY_PLAYBOOK.md), and [draft PR #1](https://github.com/errorrelooad/OpenSource-Automation-Lab/pull/1). Cross-project handoff: [private JARVIS Work continuation](https://github.com/errorrelooad/JARVIS/blob/docs/ai-observability-playbook/docs/WORK_CONTINUATION.md) (requires access).
+
+The canonical private competition source destination is `errorrelooad/competition-automation` (initialization/source migration pending). This public repository is for cleared documentation only. The original competition project includes Kaggle/DACON solution automation, not only announcement discovery. Review ChatGPT Library `/대회 매크로` archives, compare and scan candidates before any import. Preserve existing data, never commit credentials or private datasets, and require explicit approval for external submissions. The user-provided Datadog AI Playbook informs evaluation, observability and governance; it is not proof of working integration. BC-250 is discontinued and excluded.
